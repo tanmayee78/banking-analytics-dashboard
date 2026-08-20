@@ -127,16 +127,15 @@ Analysis includes:
 
 ## Key Insights
 
-The analysis identified several important patterns:
+The dashboard provides the following high-level insights:
 
-* **10,000 transactions** generated approximately **₹250.22M** in total transaction value.
-* The average transaction value was approximately **₹25,022**.
-* **91% of transactions were successful**, while **6% were pending** and **3% failed**.
-* **UPI** was the largest payment channel, with approximately **₹112.64M** in transaction value.
-* **Debit transactions** had the highest transaction volume and contributed approximately **₹105.13M** in transaction value.
-* **Wednesday** recorded the highest transaction activity with **1,453 transactions**.
-* **90% of accounts were active**, with the remaining accounts classified as inactive or closed.
-* Debit transactions accounted for the highest number of failed transactions.
+* The dataset contains **1,000 customers** and **1,200 accounts**.
+* The dashboard analyzes **10,000 transactions**.
+* The total transaction value is approximately **₹250.22M**.
+* The overall transaction failure rate is **3.00%**.
+* The dashboard provides analysis of transaction types, payment methods, transaction status, branches, customers, accounts, and time-based transaction activity.
+* Transaction activity can be analyzed by **month, day of week, and hour** to identify operational patterns.
+* Customer and account analysis provides insights into account types, account statuses, customer locations, account balances, and high-value customers.
 
 ## SQL Analysis
 
