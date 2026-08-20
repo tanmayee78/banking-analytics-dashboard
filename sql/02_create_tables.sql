@@ -1,6 +1,5 @@
 USE banking_analytics;
 
--- Insert branches
 INSERT INTO branches (branch_id, branch_name, city, region) VALUES
 (101, 'Mumbai Central', 'Mumbai', 'West'),
 (102, 'Andheri East', 'Mumbai', 'West'),
