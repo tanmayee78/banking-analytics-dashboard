@@ -28,19 +28,23 @@ The goal is to turn raw banking data into useful business insights through **SQL
 
 ## Dataset
 
-The project uses a **synthetic banking dataset** containing:
+The project uses a **synthetic banking dataset generated directly in MySQL Workbench**.
 
-* Customers
-* Accounts
-* Transactions
-* Branches
+The database contains four main tables:
 
-The dataset contains approximately:
+* **Customers** — customer details such as name, gender, age, city, and signup date
+* **Branches** — branch name, city, and region
+* **Accounts** — account type, opening date, balance, and account status
+* **Transactions** — transaction date, type, amount, payment method, and transaction status
+
+The generated dataset contains:
 
 * **1,000 customers**
 * **1,200 accounts**
 * **10,000 transactions**
 * **20 branches**
+
+The data was generated using SQL with recursive CTEs and deterministic logic, allowing the project to be reproduced directly in MySQL Workbench.
 
 ## Project Structure
 
@@ -48,9 +52,6 @@ The dataset contains approximately:
 banking-analytics-dashboard/
 │
 ├── README.md
-│
-├── data/
-│   └── .gitkeep
 │
 ├── powerbi/
 │   ├── .gitkeep
