@@ -1,4 +1,3 @@
-```sql
 CREATE DATABASE banking_analytics;
 
 USE banking_analytics;
@@ -47,4 +46,3 @@ CREATE TABLE transactions (
     FOREIGN KEY (account_id)
         REFERENCES accounts(account_id)
 );
-```
